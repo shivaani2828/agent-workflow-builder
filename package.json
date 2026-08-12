@@ -1,7 +1,23 @@
 {
   "name": "agent-workflow-builder",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "lint": "next lint" },
-  "dependencies": { "@nhost/nextjs": "^3.6.0", "@nhost/react": "^3.6.0", "graphql-request": "^7.1.2", "next": "^15.1.0", "react": "^19.0.0", "react-dom": "^19.0.0" },
-  "devDependencies": { "typescript": "^5.7.2", "@types/node": "^22.10.2", "@types/react": "^19.0.2" }
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nhost/nextjs": "^2.3.1",
+    "@nhost/react": "^3.6.0",
+    "graphql-request": "^7.1.2",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2"
+  }
 }

@@ -1,0 +1,5 @@
+actions:
+  - name: triggerWorkflowRun
+    definition: { kind: synchronous, handler: '{{NHOST_FUNCTIONS_URL}}/v1/functions/trigger-workflow-run', forward_client_headers: true }
+  - name: approveStep
+    definition: { kind: synchronous, handler: '{{NHOST_FUNCTIONS_URL}}/v1/functions/approve-step', forward_client_headers: true }

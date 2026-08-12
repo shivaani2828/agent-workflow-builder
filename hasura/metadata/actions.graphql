@@ -1,0 +1,2 @@
+type Mutation { triggerWorkflowRun(workflow_id: uuid!): TriggerResponse! approveStep(step_run_id: uuid!): TriggerResponse! }
+type TriggerResponse { run_id: uuid! status: String! }
